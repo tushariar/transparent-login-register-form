@@ -45,6 +45,12 @@ h1{
     color: #000;
 }
 
+.input-group p{
+    margin-top: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
 label{
     font-weight: 600;
 }

@@ -26,6 +26,7 @@
                 </div>
                 <div class="input-group">
                     <button id="loginbtn" class="btn">Login</button>
+                    <p onclick="register()">Don't have an account?</p>
                 </div>
             </form>
             <!-- Registration Form  -->
@@ -45,17 +46,19 @@
                 </div>
                 <div class="input-group">
                     <button id="regbtn" class="btn">Sign up</button>
+                    <p onclick="login()">Already have an account?</p>
                 </div>
             </form>
-            <div class="home">
+            <div class="home" id="home">
                 <img src="images/avatar.png" alt="">
                 <h1 id="welcome">Welcome to DevHub</h1>
                 <div class="homeButtons">
-                    <button class="btn">Login</button>
-                    <button class="btn">Register</button>
+                    <button class="btn" id="log" onclick="login()">Login</button>
+                    <button class="btn" id="reg" onclick="register()">Register</button>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
