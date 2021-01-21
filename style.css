@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    background: url('images/bg.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    width: 350px;
+    height: 460px;
+    background: rgb(247, 235, 235);
+    background: rgba(78, 95, 198, 0.5);
+    position: relative;
+    margin: 10% auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(78, 95, 198, 0.6);
+}
