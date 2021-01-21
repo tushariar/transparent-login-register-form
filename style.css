@@ -24,14 +24,15 @@
     border-radius: 20px;
 }
 
-.loginForm{
+.loginForm, .regForm{
     width: 320px;
     position: absolute;
     display: block;
     margin: 30% 30px;
 }
+.loginForm{display: none;}
 
-.login h1{
+h1{
     color: rgba(28,63,54,1);
     color: rgba(0,0,0,0.8);
     margin-bottom: 10px;
@@ -40,7 +41,10 @@
     margin: 10px 0;
     color: #000;
 }
-input, #loginbtn{
+label{
+    font-weight: 600;
+}
+input, .btn{
     display: block;
     width: 250px;
     border: none;
@@ -56,13 +60,13 @@ input::placeholder{
     color: #0f2e22;
 }
 
-#loginbtn{
+.btn{
     display: block;
     width: 100px;
     font-weight: bold;
     cursor: pointer;
 }
-#loginbtn:hover{
+.btn:hover{
     background: rgba(51, 89, 74,0.8);
     background: rgba(0,0,0,0.7);
     color: white;

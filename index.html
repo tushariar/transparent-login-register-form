@@ -13,18 +13,38 @@
 <body>
     <div class="container">
         <div class="box">
+            <!-- Login Form  -->
             <form action="" class="loginForm" id="loginForm">
                 <h1>Login to DevHub</h1>
                 <div class="input-group">
-                    <label for="username">Username:</label>
-                    <input type="text" name="username" id="username" placeholder="Enter your Username">
+                    <label for="email">Email address:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email address">
                 </div>
                 <div class="input-group">
                     <label for="password">Password:</label>
                     <input type="password" name="password" id="password" placeholder="Enter your Password">
                 </div>
                 <div class="input-group">
-                    <button id="loginbtn">Login</button>
+                    <button id="loginbtn" class="btn">Login</button>
+                </div>
+            </form>
+            <!-- Registration Form  -->
+            <form action="" class="regForm" id="regForm">
+                <h1>Create new account</h1>
+                <div class="input-group">
+                    <label for="email">Email address:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email address" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Enter a Password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirmPassword">Confirm password:</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm your password" required>
+                </div>
+                <div class="input-group">
+                    <button id="regbtn" class="btn">Sign up</button>
                 </div>
             </form>
         </div>
