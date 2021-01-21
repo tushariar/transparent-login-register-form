@@ -1,13 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'QuickSand', cursive;
 }
 
 .container{
     position: absolute;
     top: 0;
-    background: url('images/bg.svg');
+    background: url('images/bg3.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,10 +18,52 @@
 .box{
     width: 350px;
     height: 460px;
-    background: rgb(247, 235, 235);
-    background: rgba(78, 95, 198, 0.5);
+    background: rgba(28,63,54,0.2);
     position: relative;
     margin: 10% auto;
     border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(78, 95, 198, 0.6);
+}
+
+.loginForm{
+    width: 320px;
+    position: absolute;
+    display: block;
+    margin: 30% 30px;
+}
+
+.login h1{
+    color: rgba(28,63,54,1);
+    color: rgba(0,0,0,0.8);
+    margin-bottom: 10px;
+}
+.input-group{
+    margin: 10px 0;
+    color: #000;
+}
+input, #loginbtn{
+    display: block;
+    width: 250px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    /* background: rgba(7,102,109,0.5); */
+    background: rgba(255,255,255,0.2);
+    font-weight: 600;
+}
+input::placeholder{
+    /* color: #33594A; */
+    color: #0f2e22;
+}
+
+#loginbtn{
+    display: block;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#loginbtn:hover{
+    background: rgba(51, 89, 74,0.8);
+    background: rgba(0,0,0,0.7);
+    color: white;
 }

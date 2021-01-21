@@ -6,11 +6,27 @@
     <title>Login Form Design</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <div class="box">
-            
+            <form action="" class="loginForm" id="loginForm">
+                <h1>Login to DevHub</h1>
+                <div class="input-group">
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" id="username" placeholder="Enter your Username">
+                </div>
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your Password">
+                </div>
+                <div class="input-group">
+                    <button id="loginbtn">Login</button>
+                </div>
+            </form>
         </div>
     </div>
 </body>
