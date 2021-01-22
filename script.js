@@ -7,13 +7,14 @@ const home = document.querySelector('#home');
 const log = loginForm.querySelector('#log');
 const reg = loginForm.querySelector('#reg');
 
+// Function to display login form
 let login = () => {
     home.style.display = 'none';
     regForm.style.display = 'none';
 
     loginForm.style.display = 'block';
 }
-
+// Function to display registration form
 let register = () => {
     home.style.display = 'none';
     loginForm.style.display = 'none';
